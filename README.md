@@ -32,5 +32,5 @@ This project uses Logistic Regression to predict whether a patient has heart dis
 
 ## Observation
 All evaluation metrics are very close to each other,
-indicating balanced classification performance by the Logistic Regression mpdel on the heart disease
+indicating balanced classification performance by the Logistic Regression model on the heart disease
 dataset.
