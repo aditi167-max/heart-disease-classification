@@ -1,4 +1,4 @@
-# ❤️ Heart Disease Analysis
+# ❤️ Heart Disease Classification
 
 ## About
 
