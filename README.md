@@ -1,36 +1,66 @@
-# Heart Disease Classification
+# ❤️ Heart Disease Analysis
 
-This project uses Logistic Regression to predict whether a patient has heart disease.
+## About
 
-## Steps Performed
+This is a beginner Machine Learning project to predict whether a patient has heart disease or not.
 
-* Data Cleaning
-* Exploratory Data Analysis (EDA)
-* Train-Test Split
-* Logistic Regression Model
-* Predictions
-* Confusion Matrix
-* Accuracy Score
-* Precision Score
-* Recall Score
-* F1 Score
+In this project, I trained and compared different machine learning classification models to find the model that performs best.
+
+---
+
+## Models Used
+
+- Logistic Regression
+- K-Nearest Neighbors (KNN)
+- Random Forest Classifier
+- Gradient Boosting Classifier
+- Voting Classifier
+
+---
+
+## What I Did
+
+- Loaded the dataset
+- Explored the data
+- Visualized important features
+- Encoded categorical data
+- Split the dataset into training and testing sets
+- Trained different machine learning models
+- Compared their Recall scores
+
+---
+
+## Evaluation Metric
+
+Since this is a healthcare dataset, I used **Recall** as the main evaluation metric because correctly identifying patients with heart disease is more important than only achieving high accuracy.
+
+---
+
+## Best Model
+
+Among all the models, **K-Nearest Neighbors (KNN)** achieved the highest Recall score, so it performed the best for this dataset.
+
+---
 
 ## Libraries Used
 
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Scikit-Learn
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
 
-## Results
+---
 
-* Accuracy: 85.33%
-* Precision: 85.72%
-* Recall: 85.33%
-* F1 Score: 85.40%
+## What I Learned
 
-## Observation
-All evaluation metrics are very close to each other,
-indicating balanced classification performance by the Logistic Regression model on the heart disease
-dataset.
+This project helped me practice:
+
+- Data preprocessing
+- Feature encoding
+- Model training
+- Model comparison
+- Choosing the right evaluation metric for a healthcare dataset
+
+---
